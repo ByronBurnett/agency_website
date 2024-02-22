@@ -1,5 +1,4 @@
 import React from 'react';
-import test from '../assets/sample.jpg'
 import test2 from '../assets/sample_2.jpg';
 
 const Players = () => {
