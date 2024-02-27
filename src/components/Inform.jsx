@@ -14,7 +14,7 @@ const Inform = () => {
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Hoopnomics
           </h1>
-          <span className="sm:text-3xl text-2xl">Byron Burnett</span>
+
           <p className="text-2xl flex">
             Email: <AiOutlineMail size={30} className="ml-1 mr-1" />  info@hoopnomics.com
           </p>
