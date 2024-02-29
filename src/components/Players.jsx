@@ -6,7 +6,7 @@ import test5 from '../assets/sample_5.jpg';
 const Players = () => {
   return (
     <div className="w-full py-[5rem] px-4 bg-white">
-      <div className="max-w-[1240px]  mx-auto grid md:grid-cols-3 gap-8">
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         <div class="max-w-sm rounded overflow-hidden shadow-xl hover:scale-105 duration-300">
           <img className="w-full" src={test5} alt="player_1" />
           <div className="px-6 py-4">
