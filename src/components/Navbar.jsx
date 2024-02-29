@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
         <div className={nav ? 'fixed left-0 top-0 w-[85%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500': 'fixed left-[-100%]' }>
         <h1 className="w-full text-3xl font-bold m-4">
-        <img src={logo} alt="brand.logo" height={300} width={300} />
+        <img src={logo} alt="brand.logo" height={300} width={275} />
      </h1>
         
             <ul className="p-4">
