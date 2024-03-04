@@ -7,6 +7,8 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
@@ -44,9 +46,9 @@ const Footer = () => {
         </ul>
         </div>
         <div> 
-        <h6 className="font-medium text-gray-400">Company</h6>
+        <h6 className="font-medium text-gray-400">Content</h6>
         <ul>
-            <li className="py-2 text-sm">Podcast</li>
+            <Link to="/podcast"><li className="py-2 text-sm">Podcast</li></Link>
             <li className="py-2 text-sm">Blog</li>
             <li className="py-2 text-sm">VideoCast</li>
             <li className="py-2 text-sm">Events</li>
