@@ -15,6 +15,7 @@ import About from "./components/About";
 import Inform from "./components/Inform";
 import Players from "./components/Players";
 import Podcast from "./components/Podcast";
+import PlayerProfile from "./components/PlayerProfile";
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
 
  <Route path="/podcast">
   <Podcast />
+ </Route>
+
+ <Route path="/playerprofile">
+  <PlayerProfile />
  </Route>
 
 
