@@ -25,14 +25,14 @@ const PlayerProfile = () => {
         </div>
       </Tab>
       <Tab label="Stats">
-        <div className="bg-white py-16 px-4 h-screen"> 
+        <div className=" lg:w-full bg-white py-16 px-4 h-screen overflow-x-auto "> 
      
-      <table class=" overflow-hidden lg:w-[960px] md:w-[480px] sm:w-[320px] border-collapse border border-slate-400 mx-auto rounded-t-lg shadow-lg ">
+      <table class="overflow-hidden lg:w-[960px] md:w-auto  border-collapse border border-slate-400 mx-auto rounded-t-lg shadow-lg">
   <thead>
     <tr>
       <th className="border border-slate-300 bg-black text-white">MIN</th>
-      <th className="border border-slate-300 bg-black text-white">REB</th>
-      <th className="border border-slate-300 bg-black text-white">FG</th>
+      <th className="border border-slate-300 bg-black text-white">PTS</th>
+      <th className="hidden sm:table-cell border border-slate-300 bg-black text-white">FG</th>
       <th className="border border-slate-300 bg-black text-white">3PT</th>
       <th className="border border-slate-300 bg-black text-white">FT</th>
       <th className="border border-slate-300 bg-black text-white">OREB</th>
@@ -41,16 +41,15 @@ const PlayerProfile = () => {
       <th className="border border-slate-300 bg-black text-white">STL</th>
       <th className="border border-slate-300 bg-black text-white">BLK</th>
       <th className="border border-slate-300 bg-black text-white">TO</th>
-      <th className="border border-slate-300 bg-black text-white">PTS</th>
-      <th className="border border-slate-300 bg-black text-white">eFG%</th>
-      <th className="border border-slate-300 bg-black text-white">TS%</th>
+      <th className="hidden sm:table-cell border border-slate-300 bg-black text-white">eFG%</th>
+      <th className="hidden sm:table-cell border border-slate-300 bg-black text-white">TS%</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td className="text-center border border-slate-300">24</td>
       <td className="text-center border border-slate-300">12</td>
-      <td className="text-center border border-slate-300">13-24</td>
+      <td className="hidden sm:table-cell text-center border border-slate-300">13-24</td>
       <td className="text-center border border-slate-300">6-7</td>
       <td className="text-center border border-slate-300">3</td>
       <td className="text-center border border-slate-300">4</td>
@@ -59,9 +58,8 @@ const PlayerProfile = () => {
       <td className="text-center border border-slate-300">7</td>
       <td className="text-center border border-slate-300">3</td>
       <td className="text-center border border-slate-300">3</td>
-      <td className="text-center border border-slate-300">4</td>
-      <td className="text-center border border-slate-300">3</td>
-      <td className="text-center border border-slate-300">4</td>
+      <td className="hidden sm:table-cell text-center border border-slate-300">3</td>
+      <td className="hidden sm:table-cell text-center border border-slate-300">4</td>
     </tr>
     
   </tbody>
