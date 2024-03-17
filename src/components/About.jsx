@@ -19,10 +19,14 @@ const About = () => {
        <li>Knowledge of global basketball markets</li>
        <br></br>
        <p>
-        <a href="https://basketball.eurobasket.com/player/Byron-Burnett/32024">Link to Eurobasket Resume</a>
+        <a href="https://basketball.eurobasket.com/player/Byron-Burnett/32024" className="underline text-blue-600 
+                   hover:text-teal-400 
+                   visited:text-[#07579f]">Link to my old Eurobasket Resume</a>
        </p>
        <p>
-        <a href="https://www.theseus.fi/handle/10024/809004" alt="Thesis">Thesis: The Impact of Data Analytics in Basketball.</a>
+        <a href="https://www.theseus.fi/handle/10024/809004" alt="Thesis"className="underline text-blue-600 
+                   hover:text-teal-400 
+                   visited:text-[#07579f]">Thesis: The Impact of Data Analytics in Basketball.</a>
        </p>
        
         </p>
