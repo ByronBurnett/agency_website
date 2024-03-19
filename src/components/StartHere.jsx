@@ -6,15 +6,16 @@ const StartHere = () => {
   return (
     <div>
  <ReactPlayer
-            className='react-player fixed-bottom ml-96'
+            
+            className='ml-96'
             url={Start}
             width='700px'
             height='700px'
             controls = {true}
             playing={true}
             muted={true}
-            type='video/mp4'
-            playsinline={true}
+            
+            
   />
 
 
