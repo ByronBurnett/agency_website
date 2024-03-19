@@ -13,7 +13,8 @@ const StartHere = () => {
             controls = {true}
             playing={true}
             muted={true}
-            playsInline
+            type='video/mp4'
+            playsinline={true}
   />
 
 
