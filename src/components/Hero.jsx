@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { ReactTyped } from "react-typed";
 
 const Hero = () => {
@@ -14,7 +15,9 @@ const Hero = () => {
        <p className="md:text-2xl text-xl font-bold text-gray-500">Choose Hoopnomics to partner with on your journey 
        
        to success</p>
+       <Link to="/start"> 
       <button className="bg-[#07579f] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">Get Started</button>
+      </Link>
       </div>
     </div>
   )

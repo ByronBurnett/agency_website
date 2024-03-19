@@ -20,13 +20,16 @@ const PlayerProfile = () => {
             <p>Height: 6'4</p>
             <p>Weight: 215lbs</p>
             <p>School: MSU</p>
+            <p>Team: BC Northsham</p>
+            
             </div>
           </div>
         </div>
       </Tab>
       <Tab label="Stats">
-        <div className=" lg:w-full bg-white py-16 px-4 h-screen overflow-x-auto "> 
      
+        <div className=" lg:w-full bg-white py-16 px-4 h-screen overflow-x-auto "> 
+        <h2 className="text-lg font-medium text-center text-black mb-2">Season Stats</h2>
       <table class="overflow-hidden lg:w-[960px] md:w-auto  border-collapse border border-slate-400 mx-auto rounded-t-lg shadow-lg">
   <thead>
     <tr>
@@ -36,7 +39,7 @@ const PlayerProfile = () => {
       <th className="border border-slate-300 bg-black text-white">3PT</th>
       <th className="border border-slate-300 bg-black text-white">FT</th>
       <th className="border border-slate-300 bg-black text-white">OREB</th>
-      <th className="border border-slate-300 bg-black text-white">REB</th>
+      <th className="border border-slate-300 bg-black text-white">DREB</th>
       <th className="border border-slate-300 bg-black text-white">AST</th>
       <th className="border border-slate-300 bg-black text-white">STL</th>
       <th className="border border-slate-300 bg-black text-white">BLK</th>
@@ -58,8 +61,8 @@ const PlayerProfile = () => {
       <td className="text-center border border-slate-300">7</td>
       <td className="text-center border border-slate-300">3</td>
       <td className="text-center border border-slate-300">3</td>
-      <td className="hidden sm:table-cell text-center border border-slate-300">3</td>
-      <td className="hidden sm:table-cell text-center border border-slate-300">4</td>
+      <td className="hidden sm:table-cell text-center border border-slate-300">56%</td>
+      <td className="hidden sm:table-cell text-center border border-slate-300">65%</td>
     </tr>
     
   </tbody>
