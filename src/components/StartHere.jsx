@@ -12,6 +12,7 @@ const StartHere = () => {
             height='700px'
             controls = {true}
             playing={true}
+            playsinline={true}
   />
 
 
