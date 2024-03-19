@@ -13,7 +13,7 @@ const StartHere = () => {
             controls = {true}
             playing={true}
             muted={true}
-            playsinline
+            
   />
 
 
