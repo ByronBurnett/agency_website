@@ -8,7 +8,7 @@ const PlayerProfile = () => {
     <Tabs>
        
       <Tab label="Profile">
-        <div className="py-4 bg-[#f7f7f7] h-screen ">
+        <div className="py-4 bg-[#f7f7f7] h-full ">
           <h2 className="text-lg font-medium text-center mb-2">Player Profile</h2>
           <div className="w-[300px] h-auto mx-auto mt-8 shadow-xl bg-white border-2 border-purple-500 p-4 ">
            <img src={test} alt="example" 
@@ -22,8 +22,13 @@ const PlayerProfile = () => {
             <p>School: MSU</p>
             <p>Team: BC Northsham</p>
             
-            </div>
+            </div> 
           </div>
+          <div className="px-4 py-16">
+              <h2 className="text-2xl font-bold">Player Bio</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores minus odit aspernatur beatae natus maxime. Quo excepturi possimus cumque quod libero soluta voluptates saepe itaque cum sapiente molestias reiciendis laborum similique minima aut neque, accusamus quos fugit, unde nihil! Repudiandae, quod distinctio! Explicabo nihil expedita ipsam, ratione quis nostrum aut, recusandae, nam dicta facere consequatur? Totam quam error minus dolores omnis obcaecati maiores pariatur fugiat delectus? Nisi repellat placeat, inventore porro numquam id consectetur voluptate qui nesciunt laboriosam omnis architecto debitis corrupti! Esse vitae illum voluptatum, velit quasi ab harum sint dolor, voluptatibus fugiat minima aliquid error quam deserunt perspiciatis.</p><br />
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quae debitis beatae cum, sunt tempora sit repudiandae. Sequi, harum? Temporibus doloribus eveniet quidem atque dicta doloremque quis debitis earum dolorem, soluta non magni quam sapiente odio, dolores in. Architecto illum maxime nesciunt! Quasi ipsam tenetur nobis soluta beatae placeat a adipisci? Numquam ex ipsam fugiat cupiditate iure culpa, aliquam, expedita, distinctio iste iusto architecto provident illo laudantium tenetur ducimus eaque unde quisquam minus. Cumque reprehenderit ullam expedita. Amet facere nisi, quam totam distinctio voluptate fugiat nesciunt soluta necessitatibus non dolorem neque, laborum ut ratione ipsam ex voluptatem, illum ducimus laudantium!</p>
+            </div>
         </div>
       </Tab>
       <Tab label="Stats">

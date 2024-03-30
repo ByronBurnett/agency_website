@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="py-16 bg-white">
       <div className="max-w-[1240px] grid md:grid-cols-2">
-       <img src={suit} alt="founder" className="w-[500px] mx-auto px-4" />
+       <img src={suit} alt="founder" className="h-96 w-96 mx-auto rounded-full object-cover object-center px-4" />
        <div className="flex flex-col justify-center p-4">
         <p className="text-[#07579f] font-bold text-4xl">Founder & CEO</p>
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-medium py-2" >Byron Burnett</h1>

@@ -11,7 +11,7 @@ const Navbar = () => {
    }
   
     return (
-    <div className="flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className=" flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
      <h1 className="w-full text-3xl font-bold">
         <img src={logo} alt="brand.logo" height={300} width={275} className="mt-2" />
      </h1>
@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link to="/"><li className="p-4">Home</li></Link>
         <Link to="/players"><li className="p-4">Players</li></Link>
        <Link to="/about"><li className="p-4">About</li> </Link>
-        <Link to="/contact"><li className="p-4">Contact</li></Link>
+        <Link activeClass="active" smooth spy to="contact"><li className="p-4">Contact</li></Link>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} /> }
