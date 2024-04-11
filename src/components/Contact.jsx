@@ -1,9 +1,10 @@
 import React from 'react'
+import {forwardRef} from 'react'
 
 import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Contact = () => {
+const Contact = forwardRef((props, ref) => {
  
   const form = useRef();
 
@@ -26,14 +27,8 @@ const Contact = () => {
       );
   };
 
-
-
-
-
-  
-  
   return (
-    <div>
+    <div ref={ref}>
       <section id="contact" className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
@@ -45,7 +40,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <form ref={form}onSubmit={sendEmail} className="flex flex-wrap -m-2">
+            <form ref={form} onSubmit={sendEmail} className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
                   <label className="leading-7 text-sm text-white">
@@ -100,6 +95,6 @@ const Contact = () => {
       </section>
     </div>
   )
-}
+});
 
 export default Contact

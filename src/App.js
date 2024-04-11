@@ -1,4 +1,5 @@
 import React from "react";
+import {useRef} from 'react'
 import {
   BrowserRouter as Router,
   Route,
@@ -7,11 +8,11 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Analytics from "./components/Analytics";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
-import About from "./components/About";
+
 import Inform from "./components/Inform";
 import Players from "./components/Players";
 import Podcast from "./components/Podcast";
@@ -19,21 +20,24 @@ import PlayerProfile from "./components/PlayerProfile";
 import StartHere from "./components/StartHere";
 
 function App() {
+  const playerRef = useRef(null)
+  const contactRef = useRef(null)
+  const aboutRef = useRef(null)
+
+  
+  
   return (
  <Router> 
 <div className="App">
-  <Navbar />
+  <Navbar prop={playerRef} contact={contactRef} about={aboutRef} />
   <Switch> 
     <Route exact path="/"> 
   <Hero />
-  <Analytics /> 
-  <Contact /> 
-  <Cards />
+  <About ref={aboutRef} /> 
+  <Contact ref={contactRef} /> 
+  <Cards ref={playerRef} />
   </Route>
 
-<Route path="/about">
-<About/>
- </Route>
  <Route path="/contact">
 <Inform />
  </Route>

@@ -1,8 +1,8 @@
-import React, {useState,} from 'react'
+import React, {useState} from 'react'
 import logo from '../assets/White logo - no background.png'
 import {AiOutlineClose, AiOutlineMenu}  from 'react-icons/ai'
 import { Link } from 'react-router-dom';
-const Navbar = () => {
+const Navbar = ({prop, contact, about}) => {
   
    const [nav, setNav] = useState(false)
    
@@ -12,14 +12,23 @@ const Navbar = () => {
   
     return (
     <div className=" flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-     <h1 className="w-full text-3xl font-bold">
+    <Link to="/"><h1 className="w-full text-3xl font-bold">
         <img src={logo} alt="brand.logo" height={300} width={275} className="mt-2" />
-     </h1>
+     </h1></Link>
     <ul className="hidden md:flex">
         <Link to="/"><li className="p-4">Home</li></Link>
-        <Link to="/players"><li className="p-4">Players</li></Link>
-       <Link to="/about"><li className="p-4">About</li> </Link>
-        <Link activeClass="active" smooth spy to="contact"><li className="p-4">Contact</li></Link>
+        
+      <li onClick={() => prop.current.scrollIntoView({behavior:"smooth"})} 
+        className="p-4 cursor-pointer" 
+        >Players</li>
+        
+      <li
+      onClick={() => about.current.scrollIntoView({behavior:"smooth"})} 
+      className="p-4 cursor-pointer">About</li> 
+       
+       <li 
+       onClick={() => contact.current.scrollIntoView({behavior:"smooth"})} 
+       className="p-4 cursor-pointer">Contact</li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
             {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} /> }

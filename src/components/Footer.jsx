@@ -3,7 +3,6 @@ import logo from "../assets/White logo - no background.png";
 import {
   FaInstagramSquare,
   FaTwitterSquare,
-  FaFacebookSquare,
   FaLinkedin,
 } from "react-icons/fa";
 
@@ -29,10 +28,10 @@ const Footer = () => {
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaLinkedin  size={30} />
-          <FaInstagramSquare  size={30}/>
-          <FaTwitterSquare size={30} />
-          <FaFacebookSquare size={30} />
+        <a href="https://www.linkedin.com/in/byron-burnett-44b412275/"> <FaLinkedin  size={30} color='#07579f' hoverColor="#00df9a" /> </a>
+        <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#07579f' /> </a>
+          <FaTwitterSquare size={30} color='#07579f' />
+          
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
@@ -49,7 +48,7 @@ const Footer = () => {
         <h6 className="font-medium text-gray-400">Content</h6>
         <ul>
             <Link to="/podcast"><li className="py-2 text-sm">Podcast</li></Link>
-            <li className="py-2 text-sm">Blog</li>
+            <a href="https://blog.hoopnomics.com/"><li className="py-2 text-sm">Blog</li></a>
             <li className="py-2 text-sm">VideoCast</li>
             <li className="py-2 text-sm">Events</li>
         </ul>

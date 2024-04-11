@@ -1,6 +1,4 @@
 import React from "react";
-import test3 from '../assets/sample_3.jpg';
-import test4 from '../assets/sample_4.jpg';
 import test5 from '../assets/sample_5.jpg';
 import { Link } from "react-router-dom";
 
