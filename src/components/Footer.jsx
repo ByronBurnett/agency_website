@@ -8,7 +8,7 @@ import {
 
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = ({prop, contact, about}) => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="flex justify-between md:w-[75%] my-6">
         <a href="https://www.linkedin.com/in/byron-burnett-44b412275/"> <FaLinkedin  size={30} color='#07579f' hoverColor="#00df9a" /> </a>
         <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#07579f' /> </a>
-          <FaTwitterSquare size={30} color='#07579f' />
+        <a href="https://twitter.com/hoopnomics"> <FaTwitterSquare size={30} color='#07579f' /> </a>
           
         </div>
       </div>
@@ -38,8 +38,8 @@ const Footer = () => {
         <div> 
         <h6 className="font-medium text-gray-400">Offerings</h6>
         <ul>
-            <li className="py-2 text-sm">Analytics</li>
-            <li className="py-2 text-sm">Statisitcs</li>
+          <Link to="/advancedstats"><li className="py-2 text-sm">Analytics & Advanced Statistics</li></Link> 
+            <li className="py-2 text-sm">Scouting Services</li>
             <li className="py-2 text-sm">Basketball Development</li>
             <li className="py-2 text-sm">Consultancy</li>
         </ul>
@@ -56,10 +56,17 @@ const Footer = () => {
         <div> 
         <h6 className="font-medium text-gray-400">Services</h6>
         <ul>
-            <li className="py-2 text-sm">Players</li>
-            <li className="py-2 text-sm">Coaches</li>
-            <li className="py-2 text-sm">Teams</li>
-            <li className="py-2 text-sm">Contact</li>
+          <li 
+          onClick={() => about.current.scrollIntoView({behavior:"smooth"})} 
+          className="py-2 text-sm cursor-pointer"
+          >About</li>
+          <li onClick={() => prop.current.scrollIntoView({behavior:"smooth"})} 
+          className="py-2 text-sm cursor-pointer"> Players
+           </li>
+            <li
+             onClick={() => contact.current.scrollIntoView({behavior:"smooth"})} 
+             className="py-2 text-sm cursor-pointer"
+            >Contact</li>
         </ul>
         </div>
       </div>
