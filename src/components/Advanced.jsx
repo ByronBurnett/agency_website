@@ -1,5 +1,5 @@
 import React from 'react'
-import advance from '../assets/download.png';
+import advance from '../assets/Shot Distance.png';
 
 const Advanced = () => {
   return (
@@ -7,8 +7,10 @@ const Advanced = () => {
       <div className="max-w-[1240px] grid md:grid-cols-2">
         <img src={advance} alt="founder" className="w-[500px] mx-auto px-4" />
         <div className="flex flex-col justify-center bg-white px-4">
-          <p className="text-[#07579f] font-bold text-4xl pb-8">Advanced Stats</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat, fugiat vel voluptas nesciunt consectetur accusamus! Deleniti, in? Illum animi rem voluptatem, vitae laboriosam quasi ducimus accusantium earum consectetur quae reprehenderit, voluptas distinctio. At similique, velit dolorum nostrum possimus praesentium quaerat. Eveniet fugiat deleniti enim quidem, ex velit! Facere debitis aspernatur fugit optio ipsam facilis architecto consequatur suscipit totam nesciunt sit alias error iure accusantium quibusdam, dolor perspiciatis magnam? Maxime exercitationem aliquam minima numquam nihil quos asperiores placeat sit blanditiis maiores sequi possimus ducimus et corporis inventore tenetur sapiente cumque nulla, impedit consequuntur neque. Exercitationem eos fugiat ut laudantium temporibus nobis?</p>
+          <p className="text-[#07579f] font-bold text-4xl pb-8">Advanced Stats & Analytics</p>
+          <p>In recent times statistics in basketball have become important in many aspects. For teams and coaches statistics could provide a way to extract value and insight about what a player is doing or what a player might achieve in any giving amount of minutes played on the basketball court.</p> <br/>
+          <p>For players statistics provide players with feedback from their perfomance and gives them information to improve their overall game for the next matchup.Advanced statisitcs and analytics provide all basketball stakeholders with insight and information about thier team and opponents.</p> <br/>
+          <p>Hoopnomics will use a mixed-approach of advance statistics along with traditional methods of evaluation for recuriting and scouting talent in basketball.</p>
         </div>
       </div>
     </div>

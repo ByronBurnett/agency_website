@@ -40,7 +40,7 @@ const Footer = ({prop, contact, about}) => {
         <ul>
           <Link to="/advancedstats"><li className="py-2 text-sm">Analytics & Advanced Statistics</li></Link> 
             <li className="py-2 text-sm">Scouting Services</li>
-            <li className="py-2 text-sm">Basketball Development</li>
+            <li className="py-2 text-sm">Player Development</li>
             <li className="py-2 text-sm">Consultancy</li>
         </ul>
         </div>
