@@ -7,11 +7,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Cards from "./components/Cards";
 import Footer from "./components/Footer";
-
 import Inform from "./components/Inform";
-import Players from "./components/Players";
 import Podcast from "./components/Podcast";
-import PlayerProfile from "./components/PlayerProfile";
 import StartHere from "./components/StartHere";
 import Advanced from "./components/Advanced";
 
@@ -36,17 +33,12 @@ function App() {
             <Inform />
           </Route>
 
-          <Route path="/players">
-            <Players />
-          </Route>
 
           <Route path="/podcast">
             <Podcast />
           </Route>
 
-          <Route path="/playerprofile">
-            <PlayerProfile />
-          </Route>
+        
 
           <Route path="/start">
             <StartHere />
