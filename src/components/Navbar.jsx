@@ -11,23 +11,23 @@ const Navbar = ({prop, contact, about}) => {
    }
   
     return (
-    <div className=" flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+    <div className="flex justify-between  items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
     <Link to="/"><h1 className="w-full text-3xl font-bold">
         <img src={logo} alt="brand.logo" height={300} width={275} className="mt-2" />
      </h1></Link>
     <ul className="hidden md:flex">
         <Link to="/"><li className="p-4">Home</li></Link>
         
-      <li onClick={() => prop.current.scrollIntoView({behavior:"smooth"})} 
+      <li onClick={() => prop.current?.scrollIntoView({behavior:"smooth"})} 
         className="p-4 cursor-pointer" 
         >Players</li>
         
       <li
-      onClick={() => about.current.scrollIntoView({behavior:"smooth"})} 
+      onClick={() => about.current?.scrollIntoView({behavior:"smooth"})} 
       className="p-4 cursor-pointer">About</li> 
        
        <li 
-       onClick={() => contact.current.scrollIntoView({behavior:"smooth"})} 
+       onClick={() => contact.current?.scrollIntoView({behavior:"smooth"})} 
        className="p-4 cursor-pointer">Contact</li>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
