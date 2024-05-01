@@ -39,8 +39,8 @@ const Footer = ({prop, contact, about}) => {
         <h6 className="font-medium text-gray-400">Offerings</h6>
         <ul>
           <Link to="/advancedstats"><li className="py-2 text-sm">Analytics & Advanced Statistics</li></Link> 
-            <li className="py-2 text-sm">Scouting Services</li>
-            <li className="py-2 text-sm">Player Development</li>
+           <Link to="/scouting"><li className="py-2 text-sm">Scouting Services</li></Link> 
+           <Link to="/playerdevelopment"><li className="py-2 text-sm">Player Development</li></Link>
             <li className="py-2 text-sm">Consultancy</li>
         </ul>
         </div>

@@ -11,6 +11,8 @@ import Inform from "./components/Inform";
 import Podcast from "./components/Podcast";
 import StartHere from "./components/StartHere";
 import Advanced from "./components/Advanced";
+import Scout from "./components/Scout";
+import PlayerDevelopment from "./components/PlayerDevelopment";
 
 function App() {
   const playerRef = useRef(null);
@@ -38,6 +40,13 @@ function App() {
             <Podcast />
           </Route>
 
+          <Route path="/scouting">
+            <Scout />
+          </Route>
+
+          <Route path="/playerdevelopment">
+            <PlayerDevelopment />
+          </Route>
         
 
           <Route path="/start">
