@@ -41,7 +41,7 @@ const PlayerDevelopment = () => {
     </div>
     </div>
 
-    <div className="bg-black mt-10 border-b-8 border-white">
+    <div className="bg-[#07579f]">
       <section id="contact" className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
@@ -96,7 +96,7 @@ const PlayerDevelopment = () => {
                 </div>
               </div>
               <div className="p-2 w-full text-center">
-                <button className="bg-[#07579f] text-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">
+                <button className="bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">
                   
                   <input type="submit" value="Send" />
                 </button>

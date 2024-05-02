@@ -13,6 +13,7 @@ import StartHere from "./components/StartHere";
 import Advanced from "./components/Advanced";
 import Scout from "./components/Scout";
 import PlayerDevelopment from "./components/PlayerDevelopment";
+import Consultancy from "./components/Consultancy";
 
 function App() {
   const playerRef = useRef(null);
@@ -55,6 +56,10 @@ function App() {
 
           <Route path="/advancedstats">
             <Advanced />
+          </Route>
+
+          <Route path="/consultancy">
+            <Consultancy />
           </Route>
 
 
