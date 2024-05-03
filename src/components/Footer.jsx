@@ -42,6 +42,7 @@ const Footer = ({prop, contact, about}) => {
            <Link to="/scouting"><li className="py-2 text-sm">Scouting Services</li></Link> 
            <Link to="/playerdevelopment"><li className="py-2 text-sm">Player Development</li></Link>
             <Link to="/consultancy"><li className="py-2 text-sm">Consultancy</li></Link>
+            <Link to="/camps"><li className="py-2 text-sm">Basketball Camps</li></Link>
         </ul>
         </div>
         <div> 
@@ -49,8 +50,8 @@ const Footer = ({prop, contact, about}) => {
         <ul>
             <Link to="/podcast"><li className="py-2 text-sm">Podcast</li></Link>
             <a href="https://blog.hoopnomics.com/"><li className="py-2 text-sm">Blog</li></a>
-            <li className="py-2 text-sm">VideoCast</li>
-            <li className="py-2 text-sm">Basketball Camps</li>
+            <Link to="/videocast"><li className="py-2 text-sm">Videocast</li></Link>
+            
         </ul>
         </div>
         <div> 

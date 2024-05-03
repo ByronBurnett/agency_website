@@ -14,6 +14,8 @@ import Advanced from "./components/Advanced";
 import Scout from "./components/Scout";
 import PlayerDevelopment from "./components/PlayerDevelopment";
 import Consultancy from "./components/Consultancy";
+import BasketballCamps from "./components/BasketballCamps";
+import VideoCast from "./components/VideoCast";
 
 function App() {
   const playerRef = useRef(null);
@@ -60,6 +62,14 @@ function App() {
 
           <Route path="/consultancy">
             <Consultancy />
+          </Route>
+
+          <Route path="/camps">
+            <BasketballCamps />
+          </Route>
+
+          <Route path="/videocast">
+            <VideoCast />
           </Route>
 
 
