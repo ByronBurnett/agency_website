@@ -38,11 +38,11 @@ const Footer = ({prop, contact, about}) => {
         <div> 
         <h6 className="font-medium text-gray-400">Offerings</h6>
         <ul>
-          <Link to="/advancedstats"><li className="py-2 text-sm">Analytics & Advanced Statistics</li></Link> 
-           <Link to="/scouting"><li className="py-2 text-sm">Scouting Services</li></Link> 
-           <Link to="/playerdevelopment"><li className="py-2 text-sm">Player Development</li></Link>
-            <Link to="/consultancy"><li className="py-2 text-sm">Consultancy</li></Link>
-            <Link to="/camps"><li className="py-2 text-sm">Basketball Camps</li></Link>
+          <Link to="/advancedstats"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Analytics & Advanced Statistics</li></Link> 
+           <Link to="/scouting"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Scouting Services</li></Link> 
+           <Link to="/playerdevelopment"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Player Development</li></Link>
+            <Link to="/consultancy"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Consultancy</li></Link>
+            <Link to="/camps"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Basketball Camps</li></Link>
         </ul>
         </div>
         <div> 
@@ -50,7 +50,7 @@ const Footer = ({prop, contact, about}) => {
         <ul>
             <Link to="/podcast"><li className="py-2 text-sm">Podcast</li></Link>
             <a href="https://blog.hoopnomics.com/"><li className="py-2 text-sm">Blog</li></a>
-            <Link to="/videocast"><li className="py-2 text-sm">Videocast</li></Link>
+            <Link to="/videocast"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Videocast</li></Link>
             
         </ul>
         </div>
