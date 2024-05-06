@@ -32,7 +32,7 @@ const Navbar = ({ prop, contact, about }) => {
           onClick={() => prop.current?.scrollIntoView({ behavior: "smooth" })}
           className="p-4 cursor-pointer"
         >
-          Players
+          Clients
         </li>
 
         <li
