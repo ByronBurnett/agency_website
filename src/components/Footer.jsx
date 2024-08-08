@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/White logo - no background.png";
+
 import {
   FaInstagramSquare,
   FaTwitterSquare,
@@ -12,7 +13,7 @@ const Footer = ({prop, contact, about}) => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">
+        <h1 className="w-full">
           <img
             src={logo}
             alt="brand.logo"
@@ -28,7 +29,7 @@ const Footer = ({prop, contact, about}) => {
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
-        <a href="https://www.linkedin.com/in/byron-burnett-44b412275/"> <FaLinkedin  size={30} color='#07579f' hoverColor="#00df9a" /> </a>
+        <a href="https://www.linkedin.com/in/byron-burnett-44b412275/"> <FaLinkedin  size={30} color='#07579f' hovercolor="#00df9a" /> </a>
         <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#07579f' /> </a>
         <a href="https://twitter.com/hoopnomics"> <FaTwitterSquare size={30} color='#07579f' /> </a>
           
@@ -45,11 +46,12 @@ const Footer = ({prop, contact, about}) => {
             <Link to="/camps"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Basketball Camps</li></Link>
         </ul>
         </div>
+        
         <div> 
-        <h6 className="font-medium text-gray-400">Content</h6>
+        <h6 className="font-medium text-gray-400">Hoopnomics Content</h6>
         <ul>
             <Link to="/podcast"><li className="py-2 text-sm">Podcast</li></Link>
-            <a href="https://blog.hoopnomics.com/"><li className="py-2 text-sm">Blog</li></a>
+            <Link to ="/blog"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Blog</li></Link>
             <Link to="/videocast"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Videocast</li></Link>
             
         </ul>
@@ -69,6 +71,13 @@ const Footer = ({prop, contact, about}) => {
              className="py-2 text-sm cursor-pointer"
             >Contact</li>
         </ul>
+       
+        <div className=" mt-14">
+          <p>Miami Office</p>
+          <p>66 W Flagler Street, Suite</p>
+          <p>900, PMB 5261 , Miami, FL 33130</p>
+        </div>
+    
         </div>
       </div>
       

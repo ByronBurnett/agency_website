@@ -16,6 +16,13 @@ import PlayerDevelopment from "./components/PlayerDevelopment";
 import Consultancy from "./components/Consultancy";
 import BasketballCamps from "./components/BasketballCamps";
 import VideoCast from "./components/VideoCast";
+import PlayerList from "./components/PlayerList";
+import PointGuards from "./components/PointGuards";
+import PlayerProfile from "./components/PlayerProfile";
+import BlogHome  from "./components/Blog/BlogHome"
+import PostByCategory from "./components/Blog/PostByCategory";
+import Article from "./components/Blog/Article";
+
 
 function App() {
   const playerRef = useRef(null);
@@ -70,6 +77,31 @@ function App() {
 
           <Route path="/videocast">
             <VideoCast />
+          </Route>
+
+          <Route path="/playerlist">
+            <PlayerList />
+          </Route>
+
+          <Route path="/pointguards">
+            <PointGuards />
+          </Route>
+
+          <Route path="/player/:player_id">
+           <PlayerProfile />
+          </Route>
+
+
+          <Route path="/blog">
+          <BlogHome />
+          </Route>
+
+          <Route path="/posts/:slug">
+         <PostByCategory />
+          </Route>
+
+          <Route path="/article/:slug">
+         <Article />
           </Route>
 
 

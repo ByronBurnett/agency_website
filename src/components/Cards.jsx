@@ -14,7 +14,9 @@ const Cards = forwardRef((props, ref) => {
        <img src={player} alt="player" />
        <h2 className="text-2xl font-bold text-center py-8">Players</h2>
        <p className="text-center font-medium">Coming Soon!</p>
-       <button className="bg-[#07579f] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button>
+      <div className="text-center">
+      <Link to=""> <button onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="bg-[#07579f] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button></Link> 
+      </div>
       </div>
      
 

@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import logo from "../assets/White logo - no background.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import fiba from "../assets/fiba_logo.png";
+
+
 const Navbar = ({ prop, contact, about }) => {
   const [nav, setNav] = useState(false);
 
@@ -50,7 +53,17 @@ const Navbar = ({ prop, contact, about }) => {
         >
           Contact
         </li>
+       
       </ul>
+      <h1 className="">
+          <img
+            src={fiba}
+            alt="fiba_logo"
+            height={200}
+            width={200}
+            className=""
+          />
+        </h1>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
@@ -78,7 +91,9 @@ const Navbar = ({ prop, contact, about }) => {
           <Link to="/contact">
             <li className="p-4">Contact</li>
           </Link>
+          
         </ul>
+       
       </div>
     </div>
   );
