@@ -24,6 +24,7 @@ import PostByCategory from "./components/Blog/PostByCategory";
 import Article from "./components/Blog/Article";
 
 
+
 function App() {
   const playerRef = useRef(null);
   const contactRef = useRef(null);
@@ -39,6 +40,7 @@ function App() {
             <About ref={aboutRef} />
             <Contact ref={contactRef} />
             <Cards ref={playerRef} />
+            
           </Route>
 
           <Route path="/contact">
