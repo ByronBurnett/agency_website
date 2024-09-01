@@ -64,7 +64,7 @@ const Footer = ({prop, contact, about}) => {
           className="py-2 text-sm cursor-pointer"
           >About</li>
           <li onClick={() => prop.current.scrollIntoView({behavior:"smooth"})} 
-          className="py-2 text-sm cursor-pointer"> Players
+          className="py-2 text-sm cursor-pointer"> Clients
            </li>
             <li
              onClick={() => contact.current.scrollIntoView({behavior:"smooth"})} 

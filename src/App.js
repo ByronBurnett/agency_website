@@ -22,6 +22,7 @@ import PlayerProfile from "./components/PlayerProfile";
 import BlogHome  from "./components/Blog/BlogHome"
 import PostByCategory from "./components/Blog/PostByCategory";
 import Article from "./components/Blog/Article";
+import PodcastFrontPage from "./components/PodcastFrontPage";
 
 
 
@@ -37,6 +38,8 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Hero />
+            <PodcastFrontPage />
+            <BlogHome />
             <About ref={aboutRef} />
             <Contact ref={contactRef} />
             <Cards ref={playerRef} />

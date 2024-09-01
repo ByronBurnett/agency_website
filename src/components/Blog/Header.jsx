@@ -21,10 +21,10 @@ const {pathname} = useLocation()
   
     return (
     <div className="container mx-auto px-10 mb-8">
-      <div className="border-b w-full inline-block border-blue-400 py-8">
+      <div className="border-b w-full inline-block border-white py-8">
         <div className="md:float-left block">
           <Link to={`${pathname === '/'}` ? 'active' : ''}>
-            <span className="cursor-pointer font-bold text-4xl text-white">Hoopnomics Blog</span>
+            <span className="cursor-pointer font-bold text-white">Blog Section</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
