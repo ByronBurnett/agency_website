@@ -2,11 +2,12 @@ import React from 'react'
 import {useState, useEffect}  from 'react'
 import {graphcms, QUERY_POSTS} from '../../Graphql/Queries'
 import Posts from './Posts'
+import {forwardRef} from 'react'
 
 import RelatedPosts from './RelatedPosts'
 import Header from './Header';
 import Categories from './Categories';
-const BlogHome = () => {
+const BlogHome = forwardRef((props, ref) => {
   
    const [posts, setPosts] = useState([])
 
@@ -18,7 +19,7 @@ const BlogHome = () => {
   
    return (
     <>
-      <div className="container mx-auto px-10 mt-8 mb-8">
+      <div ref={ref} className="container mx-auto px-10 mt-8 mb-8">
         <Header />
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="col-span-1 lg:col-span-8">
@@ -34,6 +35,6 @@ const BlogHome = () => {
       </div>
     </>
   );
-};
+});
 
 export default BlogHome 

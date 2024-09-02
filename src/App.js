@@ -30,16 +30,18 @@ function App() {
   const playerRef = useRef(null);
   const contactRef = useRef(null);
   const aboutRef = useRef(null);
+  const blogRef = useRef(null);
+  const podcastRef = useRef(null);
 
   return (
     <Router>
       <div className="App">
-        <Navbar prop={playerRef} contact={contactRef} about={aboutRef} />
+        <Navbar prop={playerRef} contact={contactRef} about={aboutRef} blog={blogRef} podcast={podcastRef} />
         <Switch>
           <Route exact path="/">
             <Hero />
-            <PodcastFrontPage />
-            <BlogHome />
+            <PodcastFrontPage ref={podcastRef} />
+            <BlogHome ref={blogRef} />
             <About ref={aboutRef} />
             <Contact ref={contactRef} />
             <Cards ref={playerRef} />

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import fiba from "../assets/fiba_logo.png";
 
 
-const Navbar = ({ prop, contact, about }) => {
+const Navbar = ({ prop, contact, about, blog, podcast }) => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -36,6 +36,20 @@ const Navbar = ({ prop, contact, about }) => {
           className="p-4 cursor-pointer"
         >
           Clients
+        </li>
+
+        <li
+          onClick={() => blog.current?.scrollIntoView({ behavior: "smooth" })}
+          className="p-4 cursor-pointer"
+        >
+          Blog
+        </li>
+
+        <li
+          onClick={() => podcast.current?.scrollIntoView({ behavior: "smooth" })}
+          className="p-4 cursor-pointer"
+        >
+          Podcast
         </li>
 
         <li
