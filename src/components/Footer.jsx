@@ -5,7 +5,13 @@ import {
   FaInstagramSquare,
   FaTwitterSquare,
   FaLinkedin,
+  FaYoutubeSquare,
+  FaFacebookSquare,
+  FaTiktok
+  
 } from "react-icons/fa";
+
+
 
 import { Link } from "react-router-dom";
 
@@ -23,15 +29,18 @@ const Footer = ({prop, contact, about}) => {
           />
         </h1>
         <p className="py-4">
-          Hoopnomics is full service international basketball marketing agency. We seek to help players, 
-          teams and coaches find the solution that 
-          meets their desires and needs.
+          Hoopnomics is full service international basketball marketing agency. We help players, 
+          teams and coaches find solutions that 
+          meets their desired goals.
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
         <a href="https://www.linkedin.com/in/byron-burnett-44b412275/"> <FaLinkedin  size={30} color='#07579f' hovercolor="#00df9a" /> </a>
         <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#07579f' /> </a>
         <a href="https://twitter.com/hoopnomics"> <FaTwitterSquare size={30} color='#07579f' /> </a>
+        <a href="https://www.youtube.com/@hoopnomics"> <FaYoutubeSquare size={30} color='#07579f' /> </a>
+        <a href="https://www.facebook.com/profile.php?id=61565009164881"> <FaFacebookSquare size={30} color='#07579f' /> </a>
+        <a href="https://www.tiktok.com/@hoopnomics"> <FaTiktok size={30} color='#07579f' /> </a>
           
         </div>
       </div>
@@ -74,8 +83,8 @@ const Footer = ({prop, contact, about}) => {
        
         <div className=" mt-14">
           <p>Miami Office</p>
-          <p>66 W Flagler Street, Suite</p>
-          <p>900, PMB 5261 , Miami, FL 33130</p>
+          <p>66 W Flagler Street, Suite 900</p>
+          <p>PMB 5261 Miami, FL 33130</p>
         </div>
     
         </div>
