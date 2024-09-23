@@ -34,7 +34,7 @@ const Post = ({post}) => {
           </div>
         </div>
         <h1 className="mb-8 text-3xl font-semibold">{post.title}</h1>
-        <div className="[&_h3]:font-semibold [&_h3]:text-xl [&_h3]:mb-4 [&_p]:mb-8 " dangerouslySetInnerHTML={{__html: post.content.html}} />
+        <div className="[&_h2]:font-bold [&_h2]:text-3xl [&_h2]:mb-4 [&_h3]:font-semibold [&_h3]:text-xl [&_h3]:mb-4 [&_p]:mb-8 " dangerouslySetInnerHTML={{__html: post.content.html}} />
         
       </div>
     </div>
