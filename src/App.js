@@ -66,10 +66,6 @@ function App() {
           </Route>
         
 
-          <Route path="/start">
-            
-          </Route>
-
           <Route path="/advancedstats">
             <Advanced />
           </Route>
