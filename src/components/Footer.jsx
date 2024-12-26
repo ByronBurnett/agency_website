@@ -81,11 +81,6 @@ const Footer = ({prop, contact, about}) => {
             >Contact</li>
         </ul>
        
-        <div className=" mt-14">
-          <p>Miami Office</p>
-          <p>66 W Flagler Street, Suite 900</p>
-          <p>PMB 5261 Miami, FL 33130</p>
-        </div>
     
         </div>
       </div>

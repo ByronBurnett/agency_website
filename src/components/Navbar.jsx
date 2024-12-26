@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "../assets/White logo - no background.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import fiba from "../assets/fiba_logo.png";
+
 
 
 const Navbar = ({ prop, contact, about, blog, podcast }) => {
@@ -69,15 +69,7 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         </li>
        
       </ul>
-      <h1 className="">
-          <img
-            src={fiba}
-            alt="fiba_logo"
-            height={200}
-            width={200}
-            className=""
-          />
-        </h1>
+      
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
