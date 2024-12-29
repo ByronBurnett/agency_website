@@ -35,13 +35,10 @@ const Footer = ({prop, contact, about}) => {
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
-        <a href="https://www.linkedin.com/in/byron-burnett-44b412275/"> <FaLinkedin  size={30} color='#07579f' hovercolor="#00df9a" /> </a>
         <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#07579f' /> </a>
         <a href="https://twitter.com/hoopnomics"> <FaTwitterSquare size={30} color='#07579f' /> </a>
         <a href="https://www.youtube.com/@hoopnomics"> <FaYoutubeSquare size={30} color='#07579f' /> </a>
-        <a href="https://www.facebook.com/profile.php?id=61565009164881"> <FaFacebookSquare size={30} color='#07579f' /> </a>
-        <a href="https://www.tiktok.com/@hoopnomics"> <FaTiktok size={30} color='#07579f' /> </a>
-          
+    
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
