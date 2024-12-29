@@ -31,12 +31,6 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
           <li className="p-4">Home</li>
         </Link>
 
-        <li
-          onClick={() => prop.current?.scrollIntoView({ behavior: "smooth" })}
-          className="p-4 cursor-pointer"
-        >
-          Clients
-        </li>
 
         <li
           onClick={() => blog.current?.scrollIntoView({ behavior: "smooth" })}
@@ -46,12 +40,7 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         </li>
 
 
-        <li
-          onClick={() => about.current?.scrollIntoView({ behavior: "smooth" })}
-          className="p-4 cursor-pointer"
-        >
-          About
-        </li>
+        
 
         <li
           onClick={() =>

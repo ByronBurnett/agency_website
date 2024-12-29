@@ -3,12 +3,12 @@ import { useRef } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
+
 import Contact from "./components/Contact";
-import Cards from "./components/Cards";
+
 import Footer from "./components/Footer";
 import Inform from "./components/Inform";
-import Podcast from "./components/Podcast";
+
 import Advanced from "./components/Advanced";
 import Scout from "./components/Scout";
 import PlayerDevelopment from "./components/PlayerDevelopment";
@@ -25,24 +25,24 @@ import Article from "./components/Blog/Article";
 
 
 function App() {
-  const playerRef = useRef(null);
+  
   const contactRef = useRef(null);
-  const aboutRef = useRef(null);
+  
   const blogRef = useRef(null);
   
 
   return (
     <Router>
       <div className="App">
-        <Navbar prop={playerRef} contact={contactRef} about={aboutRef} blog={blogRef} />
+        <Navbar  contact={contactRef} blog={blogRef} />
         <Switch>
           <Route exact path="/">
             <Hero />
             
             <BlogHome ref={blogRef} />
-            <About ref={aboutRef} />
+        
             <Contact ref={contactRef} />
-            <Cards ref={playerRef} />
+            
             
           </Route>
 
@@ -51,9 +51,7 @@ function App() {
           </Route>
 
 
-          <Route path="/podcast">
-            <Podcast />
-          </Route>
+         
 
           <Route path="/scouting">
             <Scout />
@@ -107,7 +105,7 @@ function App() {
 
 
         </Switch>
-        <Footer prop={playerRef} contact={contactRef} about={aboutRef} />
+        <Footer  contact={contactRef}  />
       </div>
     </Router>
   );

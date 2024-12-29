@@ -65,13 +65,8 @@ const Footer = ({prop, contact, about}) => {
         <div> 
         <h6 className="font-medium text-gray-400">Services</h6>
         <ul>
-          <li 
-          onClick={() => about.current.scrollIntoView({behavior:"smooth"})} 
-          className="py-2 text-sm cursor-pointer"
-          >About</li>
-          <li onClick={() => prop.current.scrollIntoView({behavior:"smooth"})} 
-          className="py-2 text-sm cursor-pointer"> Clients
-           </li>
+         
+          
             <li
              onClick={() => contact.current.scrollIntoView({behavior:"smooth"})} 
              className="py-2 text-sm cursor-pointer"
