@@ -4,10 +4,8 @@ import logo from "../assets/White logo - no background.png";
 import {
   FaInstagramSquare,
   FaTwitterSquare,
-  FaLinkedin,
   FaYoutubeSquare,
-  FaFacebookSquare,
-  FaTiktok
+  
   
 } from "react-icons/fa";
 
@@ -54,7 +52,7 @@ const Footer = ({prop, contact, about}) => {
         <div> 
         <h6 className="font-medium text-gray-400">Hoopnomics Content</h6>
         <ul>
-            <Link to="/podcast"><li className="py-2 text-sm">Podcast</li></Link>
+    
             <Link to ="/blog"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Blog</li></Link>
             <Link to="/videocast"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Videocast</li></Link>
             
