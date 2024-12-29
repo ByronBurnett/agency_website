@@ -45,12 +45,6 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
           Blog
         </li>
 
-        <li
-          onClick={() => podcast.current?.scrollIntoView({ behavior: "smooth" })}
-          className="p-4 cursor-pointer"
-        >
-          Podcast
-        </li>
 
         <li
           onClick={() => about.current?.scrollIntoView({ behavior: "smooth" })}

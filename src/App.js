@@ -21,7 +21,6 @@ import PlayerProfile from "./components/PlayerProfile";
 import BlogHome  from "./components/Blog/BlogHome"
 import PostByCategory from "./components/Blog/PostByCategory";
 import Article from "./components/Blog/Article";
-import PodcastFrontPage from "./components/PodcastFrontPage";
 
 
 
@@ -30,16 +29,16 @@ function App() {
   const contactRef = useRef(null);
   const aboutRef = useRef(null);
   const blogRef = useRef(null);
-  const podcastRef = useRef(null);
+  
 
   return (
     <Router>
       <div className="App">
-        <Navbar prop={playerRef} contact={contactRef} about={aboutRef} blog={blogRef} podcast={podcastRef} />
+        <Navbar prop={playerRef} contact={contactRef} about={aboutRef} blog={blogRef} />
         <Switch>
           <Route exact path="/">
             <Hero />
-            <PodcastFrontPage ref={podcastRef} />
+            
             <BlogHome ref={blogRef} />
             <About ref={aboutRef} />
             <Contact ref={contactRef} />
