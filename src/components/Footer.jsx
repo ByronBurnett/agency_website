@@ -29,9 +29,7 @@ const Footer = ({prop, contact, about}) => {
           />
         </h1>
         <p className="py-4">
-          Hoopnomics is full service international basketball marketing agency. We help players, 
-          teams and coaches find solutions that 
-          meets their desired goals.
+          Premier basketball marketing agency. 
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
