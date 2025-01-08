@@ -28,13 +28,13 @@ const Contact = forwardRef((props, ref) => {
 
   return (
     <div ref={ref}>
-      <section id="contact" className="text-gray-700 body-font relative">
+      <section id="contact" className="text-black-700 body-font relative bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
               Contact Us
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-white text-2xl">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-black text-2xl">
               Please connect with us, send a short message and we will reach out!
             </p>
           </div>
@@ -42,7 +42,7 @@ const Contact = forwardRef((props, ref) => {
             <form ref={form} onSubmit={sendEmail} className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label className="leading-7 text-sm text-white">
+                  <label className="leading-7 text-sm text-black">
                     Name
                   </label>
                   <input
@@ -55,7 +55,7 @@ const Contact = forwardRef((props, ref) => {
               </div>
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label  className="leading-7 text-sm text-white">
+                  <label  className="leading-7 text-sm text-black">
                     Email
                   </label>
                   <input
@@ -70,7 +70,7 @@ const Contact = forwardRef((props, ref) => {
                 <div className="relative">
                   <label
                     for="message"
-                    className="leading-7 text-sm text-white"
+                    className="leading-7 text-sm text-black"
                   >
                     Message
                   </label>
@@ -82,7 +82,7 @@ const Contact = forwardRef((props, ref) => {
                 </div>
               </div>
               <div className="p-2 w-full text-center">
-                <button className="bg-[#07579f] text-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">
+                <button className="bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">
                   
                   <input type="submit" value="Send" />
                 </button>
