@@ -31,7 +31,7 @@ const Contact = forwardRef((props, ref) => {
       <section id="contact" className="text-black-700 body-font relative bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-black">
+            <h1 className="sm:text-4xl text-2xl font-medium title-font mb-4 text-black">
               Contact Us
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-black text-2xl">
