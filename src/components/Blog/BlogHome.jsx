@@ -15,7 +15,9 @@ const BlogHome = forwardRef((props, ref) => {
      
     graphcms.request(QUERY_POSTS)
     .then(res => setPosts(res.posts))
-   }, [])
+   
+  
+  }, [])
   
    return (
     <>

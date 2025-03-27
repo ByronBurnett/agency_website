@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 
 const Navbar = ({ prop, contact, about, blog, podcast }) => {
+  
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -26,10 +27,23 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
           />
         </h1>
       </Link>
+      
       <ul className="hidden md:flex">
         <Link to="/">
           <li className="p-4">Home</li>
         </Link>
+
+        <li className="p-4"
+          
+        >
+          Player Development
+        </li>
+
+        <li className="p-4"
+          
+        >
+          Basketball Camps
+        </li>
 
 
         <li
@@ -70,9 +84,6 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         <ul className="p-4">
           <Link to="/">
             <li className="p-4 border-b border-b-gray-600">Home</li>
-          </Link>
-          <Link to="/players">
-            <li className="p-4 border-b border-b-gray-600">Players</li>
           </Link>
           <Link to="/about">
             <li className="p-4 border-b border-b-gray-600">About</li>

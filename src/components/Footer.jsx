@@ -1,17 +1,14 @@
 import React from "react";
 import logo from "../assets/White logo - no background.png";
-
 import {
   FaInstagramSquare,
   FaTwitterSquare,
   FaYoutubeSquare,
   
-  
-} from "react-icons/fa";
-
-
+  } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
+
 
 const Footer = ({prop, contact, about}) => {
   return (
@@ -32,9 +29,9 @@ const Footer = ({prop, contact, about}) => {
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
-        <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#07579f' /> </a>
-        <a href="https://twitter.com/hoopnomics"> <FaTwitterSquare size={30} color='#07579f' /> </a>
-        <a href="https://www.youtube.com/@hoopnomics"> <FaYoutubeSquare size={30} color='#07579f' /> </a>
+        <a href="https://www.instagram.com/hoopnomics/"> <FaInstagramSquare  size={30} color='#1E88E5' /> </a>
+        <a href="https://twitter.com/hoopnomics"> <FaTwitterSquare size={30} color='1E88E5' /> </a>
+        <a href="https://www.youtube.com/@hoopnomics"> <FaYoutubeSquare size={30} color='1E88E5' /> </a>
     
         </div>
       </div>
@@ -42,7 +39,7 @@ const Footer = ({prop, contact, about}) => {
         <div> 
         <h6 className="font-medium text-gray-400">Offerings</h6>
         <ul>
-          <Link to="/advancedstats"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Analytics & Advanced Statistics</li></Link> 
+        
            <Link to="/scouting"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Scouting Services</li></Link> 
            <Link to="/playerdevelopment"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Player Development</li></Link>
             <Link to="/consultancy"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Consultancy</li></Link>
@@ -55,7 +52,6 @@ const Footer = ({prop, contact, about}) => {
         <ul>
     
             <Link to ="/blog"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Blog</li></Link>
-            <Link to="/videocast"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Videocast</li></Link>
             
         </ul>
         </div>

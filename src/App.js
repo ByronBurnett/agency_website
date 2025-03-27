@@ -21,7 +21,7 @@ import PlayerProfile from "./components/PlayerProfile";
 import BlogHome  from "./components/Blog/BlogHome"
 import PostByCategory from "./components/Blog/PostByCategory";
 import Article from "./components/Blog/Article";
-
+import Newsletter from "./components/Newsletter";
 
 
 function App() {
@@ -38,21 +38,13 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Hero />
-            
+            <Newsletter />
             <BlogHome ref={blogRef} />
-        
             <Contact ref={contactRef} />
-            
-            
           </Route>
-
           <Route path="/contact">
             <Inform />
           </Route>
-
-
-         
-
           <Route path="/scouting">
             <Scout />
           </Route>

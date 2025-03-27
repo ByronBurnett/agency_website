@@ -82,7 +82,7 @@ const Contact = forwardRef((props, ref) => {
                 </div>
               </div>
               <div className="p-2 w-full text-center">
-                <button className="bg-black text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">
+                <button className="bg-blue-600 text-white w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 ">
                   
                   <input type="submit" value="Send" />
                 </button>
