@@ -98,7 +98,7 @@ const Newsletter = () => {
                 Subscribe
               </button>
             </form>
-            <ReCAPTCHA ref={recaptchaRef} sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" />
+            <ReCAPTCHA ref={recaptchaRef} sitekey={process.env.REACT_APP_GOOGLE_RECAPTHA} />
             {errorMessage && <p className="p-2 text-red-600">{errorMessage}</p>}
             {successMessage && (
               <p className="p-2 text-green-600">{successMessage}</p>
