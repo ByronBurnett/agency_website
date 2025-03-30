@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-
+import Cards from "./components/Cards"
 import Contact from "./components/Contact";
 
 import Footer from "./components/Footer";
@@ -38,7 +38,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Hero />
-            <Newsletter />
+            <Newsletter /> 
             <BlogHome ref={blogRef} />
             <Contact ref={contactRef} />
           </Route>
@@ -80,6 +80,10 @@ function App() {
 
           <Route path="/player/:player_id">
            <PlayerProfile />
+          </Route>
+
+          <Route path="/players">
+          <Cards/>
           </Route>
 
 
