@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/White logo - no background.png";
+import fiba_logo from "../assets/fiba_logo.png"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -32,17 +33,17 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         <Link to="/">
           <li className="p-4">Home</li>
         </Link>
-
+        <Link to="/players"> 
         <li className="p-4"
           
         >
-          Player Development
+          Clients
         </li>
-
+        </Link>
         <li className="p-4"
           
         >
-          Basketball Camps
+          Player Development 
         </li>
 
 
@@ -64,6 +65,8 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         >
           Contact
         </li>
+
+        
        
       </ul>
       
@@ -95,6 +98,13 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         </ul>
        
       </div>
+      <img
+            src={fiba_logo}
+            alt="fiba_logo"
+            height={200}
+            width={200}
+            className="mt-2"
+          />
     </div>
   );
 };
