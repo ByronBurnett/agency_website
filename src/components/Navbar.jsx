@@ -33,7 +33,7 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         <Link to="/">
           <li className="p-4">Home</li>
         </Link>
-        <Link to="/players"> 
+        <Link to=""> 
         <li className="p-4"
           
         >
@@ -56,19 +56,23 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
 
 
         
-
-        <li
-          onClick={() =>
-            contact.current?.scrollIntoView({ behavior: "smooth" })
-          }
-          className="p-4 cursor-pointer"
-        >
-          Contact
-        </li>
-
+        <Link to="/about"> 
+        <li className="p-4 cursor-pointer"
         
-       
-      </ul>
+         
+        >
+          About
+        </li>
+        </Link>
+        
+       </ul>
+       <img
+            src={fiba_logo}
+            alt="fiba_logo"
+            height={200}
+            width={200}
+            className="mt-2"
+          />
       
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -91,20 +95,13 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
           <Link to="/about">
             <li className="p-4 border-b border-b-gray-600">About</li>
           </Link>
-          <Link to="/contact">
-            <li className="p-4">Contact</li>
-          </Link>
+        
           
         </ul>
+        
        
       </div>
-      <img
-            src={fiba_logo}
-            alt="fiba_logo"
-            height={200}
-            width={200}
-            className="mt-2"
-          />
+      
     </div>
   );
 };
