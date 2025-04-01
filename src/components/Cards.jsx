@@ -15,7 +15,7 @@ const Cards = forwardRef((props, ref) => {
        <h2 className="text-2xl font-bold text-center py-8">Players</h2>
        <p className="text-center font-medium">Coming Soon!</p>
       <div className="text-center">
-      <Link to=""> <button  className="bg-[#07579f] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button></Link> 
+      <Link to="/playerlist"> <button  className="bg-blue-600 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button></Link> 
       </div>
       </div>
      
@@ -25,7 +25,7 @@ const Cards = forwardRef((props, ref) => {
        <img src={Coaches} alt="coach" />
        <h2 className="text-2xl font-bold text-center py-8">Coaches</h2>
        <p className="text-center font-medium">Coming Soon!</p>
-       <button className="bg-[#07579f] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button>
+       <button className="bg-blue-600 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button>
       </div>
      
 
@@ -35,7 +35,7 @@ const Cards = forwardRef((props, ref) => {
        <img src={team1} alt="player" />
        <h2 className="text-2xl font-bold text-center py-8">Teams</h2>
        <p className="text-center font-medium">Coming Soon!</p>
-       <button className="bg-[#07579f] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button>
+       <button className="bg-blue-600 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3">Click Here</button>
       </div>
    
       </div>
