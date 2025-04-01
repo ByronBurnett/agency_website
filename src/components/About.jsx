@@ -1,12 +1,12 @@
 import React from 'react'
 import Contact from "./Contact"
-import Byron from "../assets/byron_burnett.png"
+import byron from "../assets/byron_burnett.png"
 
 const About = () => {
   return (
     <div className="py-16 px-4 bg-white">
     <div className="max-w-[1240px] grid md:grid-cols-2">
-      <img src={Byron} alt="founder" className="mx-auto rounded-full border-2 border-black object-cover object-center h-80 w-80 m-2 bg-zinc-100" />
+      <img src={byron} alt="founder.pic" className="mx-auto rounded-full border-2 border-black object-cover object-center h-80 w-80 m-2 bg-zinc-100" />
       <div className="flex flex-col justify-center bg-white px-4">
         <h2 className="text-blue-600 font-bold text-4xl ">Founder & CEO</h2> 
         <h3 className="text-black font-bold text-3xl pb-8">Byron Burnett</h3>  
