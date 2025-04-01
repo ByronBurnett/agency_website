@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Cards from "./components/Cards"
 import Contact from "./components/Contact";
-
+import About from "./components/About";
 import Footer from "./components/Footer";
 import Inform from "./components/Inform";
 
@@ -40,7 +40,8 @@ function App() {
             <Hero />
             <Newsletter /> 
             <BlogHome ref={blogRef} />
-            <Contact ref={contactRef} />
+            <Cards />
+           
           </Route>
           <Route path="/contact">
             <Inform />
@@ -82,8 +83,8 @@ function App() {
            <PlayerProfile />
           </Route>
 
-          <Route path="/players">
-          <Cards/>
+          <Route path="/about">
+          <About />
           </Route>
 
 
