@@ -33,22 +33,24 @@ const PlayerDevelopment = () => {
     <div className="max-w-[1240px] grid md:grid-cols-2">
       <img src={gymwork} alt="founder" className="w-[500px] mx-auto px-4" />
       <div className="flex flex-col justify-center bg-white px-4">
-        <p className="text-[#07579f] font-bold text-4xl pb-8">Player Development</p>
+        <p className="text-black font-bold text-4xl pb-8">Player Development</p>
         <p>Player Development is key for young and aspiring athlete, the development of skills on the court such as leadership, accountibilty, working with others and overcoming obstacles to your individual goals as a basketball player are important in the life cycle of a career.</p> <br/>
         <p>As players get older and enter new level of competetion, development becomes more significant. We like to tailor workouts and reigments that fits the player's needs at any given time. With over 20 years of experience in basketball at the collegiate and professional ranks we can help you reach new heights.</p>
        
       </div>
     </div>
+    <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded-sm md:my-10 dark:bg-gray-700"></hr>
     </div>
+     
 
-    <div className="bg-[#07579f]">
+    <div className="bg-white">
       <section id="contact" className="text-gray-700 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Contact Us
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-white text-2xl">
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-black text-2xl">
               Please send us a message about player development inquiries.
             </p>
           </div>
@@ -56,7 +58,7 @@ const PlayerDevelopment = () => {
             <form ref={form} onSubmit={sendEmail} className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label className="leading-7 text-sm text-white">
+                  <label className="leading-7 text-sm text-black">
                     Name
                   </label>
                   <input
@@ -69,7 +71,7 @@ const PlayerDevelopment = () => {
               </div>
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label  className="leading-7 text-sm text-white">
+                  <label  className="leading-7 text-sm text-black">
                     Email
                   </label>
                   <input
@@ -84,7 +86,7 @@ const PlayerDevelopment = () => {
                 <div className="relative">
                   <label
                     for="message"
-                    className="leading-7 text-sm text-white"
+                    className="leading-7 text-sm text-black"
                   >
                     Message
                   </label>
