@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Inform from "./components/Inform";
-
+import Teams from "./components/Teams"
 import Advanced from "./components/Advanced";
 import Scout from "./components/Scout";
 import PlayerDevelopment from "./components/PlayerDevelopment";
@@ -40,7 +40,7 @@ function App() {
             <Hero />
             <Newsletter /> 
             <BlogHome ref={blogRef} />
-            <Cards />
+           
            
           </Route>
           <Route path="/contact">
@@ -90,6 +90,10 @@ function App() {
 
           <Route path="/blog">
           <BlogHome />
+          </Route>
+
+          <Route path="/teams">
+           <Teams />
           </Route>
 
           <Route path="/posts/:slug">
