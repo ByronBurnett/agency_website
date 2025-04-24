@@ -92,9 +92,7 @@ function App() {
           <BlogHome />
           </Route>
 
-          <Route path="/teams">
-           <Teams />
-          </Route>
+          
 
           <Route path="/posts/:slug">
          <PostByCategory />
