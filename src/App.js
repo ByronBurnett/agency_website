@@ -3,12 +3,11 @@ import { useRef } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Cards from "./components/Cards"
-import Contact from "./components/Contact";
+
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Inform from "./components/Inform";
-import Teams from "./components/Teams"
+
 import Advanced from "./components/Advanced";
 import Scout from "./components/Scout";
 import PlayerDevelopment from "./components/PlayerDevelopment";
