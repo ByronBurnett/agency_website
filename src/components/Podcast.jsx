@@ -14,7 +14,7 @@ const Podcast = () => {
   }, []);
 
   return (
-     <section className=" bg-white isolate overflow-hidden">
+     <section className=" bg-gray-200 isolate overflow-hidden">
       <div className="px-6 mx-auto lg:px-8 max-w-7xl">
     
         
