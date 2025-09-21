@@ -1,13 +1,15 @@
 import React from "react";
 import { useRef } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 
+import Navbar from "./components/Navbar";
+import Podcast from "./components/Podcast"
+import Hero from "./components/Hero";
+import Teams from "./components/Teams"
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Inform from "./components/Inform";
-
+import Cards from "./components/Cards"
 import Advanced from "./components/Advanced";
 import Scout from "./components/Scout";
 import PlayerDevelopment from "./components/PlayerDevelopment";
@@ -29,7 +31,6 @@ function App() {
   
   const blogRef = useRef(null);
   
-
   return (
     <Router>
       <div className="App">
@@ -39,6 +40,7 @@ function App() {
             <Hero />
             <Newsletter /> 
             <BlogHome ref={blogRef} />
+            <Podcast />
            
            
           </Route>
@@ -108,5 +110,8 @@ function App() {
     </Router>
   );
 }
+  
+
+
 
 export default App;
