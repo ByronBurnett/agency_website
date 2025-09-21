@@ -15,7 +15,8 @@ const Podcast = () => {
 
   return (
      <section className=" bg-white isolate overflow-hidden">
-      <div className=' max-w-[1240px] mx-auto' > 
+      <div className="px-6 mx-auto lg:px-8 max-w-7xl">
+    
         
           
             <h1 className="text-3xl mt-10 font-bold tracking-tight text-black sm:text-4xl mb-10">
