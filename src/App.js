@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
-import Podcast from "./components/Podcast"
+import Podcast from "./components/Podcast";
 import Hero from "./components/Hero";
 import Teams from "./components/Teams"
 import About from "./components/About";
@@ -25,6 +25,7 @@ import Article from "./components/Blog/Article";
 import Newsletter from "./components/Newsletter";
 
 
+
 function App() {
   
   const contactRef = useRef(null);
@@ -40,10 +41,10 @@ function App() {
             <Hero />
             <Newsletter /> 
             <BlogHome ref={blogRef} />
-            <Podcast />
+            <Podcast/>
            <Cards/> 
            
-           
+          
           </Route>
           <Route path="/contact">
             <Inform />
@@ -88,6 +89,11 @@ function App() {
           <Route path="/about">
           <About />
           </Route>
+
+          <Route path="/podcast">
+          <Podcast />
+          </Route>
+
 
 
           <Route path="/blog">

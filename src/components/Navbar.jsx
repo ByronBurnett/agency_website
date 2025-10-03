@@ -40,12 +40,7 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
           Clients
         </li>
         </Link>
-        <li className="p-4"
-          
-        >
-          Player Development 
-        </li>
-
+   
 
         <li
           onClick={() => blog.current?.scrollIntoView({ behavior: "smooth" })}

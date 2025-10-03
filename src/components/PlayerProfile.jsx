@@ -90,10 +90,10 @@ const PlayerProfile = () => {
        <th className="hidden sm:table-cell border border-slate-300 bg-black text-white">PTS</th>
      </tr>
    </thead>
+   
    <tbody>
    {player.stats && player.stats.map(data => (
     
-  
     <tr key={index}>
       <td className="text-center border border-slate-300">{data.season}</td>
       <td className="text-center border border-slate-300">{data.team}</td>

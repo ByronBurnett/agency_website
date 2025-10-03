@@ -43,7 +43,7 @@ const Footer = ({prop, contact, about}) => {
         <h6 className="font-medium text-gray-400">Offerings</h6>
         <ul>
         
-           <Link to="/scouting"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Scouting Services</li></Link> 
+           <Link to="/scouting"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Scouting & Analytical Services</li></Link> 
            <Link to="/playerdevelopment"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Player Development</li></Link>
             <Link to="/consultancy"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Consultancy</li></Link>
             <Link to="/camps"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Basketball Camps</li></Link>
@@ -55,7 +55,8 @@ const Footer = ({prop, contact, about}) => {
         <ul>
     
             <Link to ="/blog"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Blog</li></Link>
-            
+            <Link to="/podcast"><li className="py-2 sm-text">Podcast</li>
+            </Link>
         </ul>
         </div>
         <div> 
