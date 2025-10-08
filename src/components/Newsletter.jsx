@@ -69,10 +69,10 @@ const Newsletter = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 max-w-2xl mx-auto lg:max-w-none lg:mx-0 gap-y-16">
           <div className="max-w-xl lg:max-w-lg">
             <h1 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
-              Subscribe for newsletter.
+              Subscribe to our newsletter.
             </h1>
             <p className="mt-4 text-lg leading-8 text-black">
-              Hoopnomics latest news letter with basketball trends and updates.
+              Hoopnomics latest newsletter with basketball trends and updates.
             </p>
             <form
               onSubmit={handleSubmit}
