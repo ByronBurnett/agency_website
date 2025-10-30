@@ -9,8 +9,8 @@ const Hero = () => {
        <p className="text-blue-600 text-4xl font-bold p-2">INSIDE THE NUMBERS</p>
        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">Hoopnomics.</h1>
        <div className="flex justify-center items-center">
-        <p className="md:text-5xl sm:text-4xl font-bold py-4">We represent</p>
-       <ReactTyped className="md:text-5xl sm:text-4xl font-bold md:pl-4 pl-2" strings={['players', 'coaches',]} typeSpeed={120} backSpeed={140} loop />
+        <p className="md:text-5xl sm:text-4xl font-bold py-4"></p>
+       <ReactTyped className="md:text-5xl sm:text-4xl font-bold md:pl-4 pl-2 mb-5" strings={['Data Insight','&','Talent Discovery']} typeSpeed={120} backSpeed={140} loop />
        </div>
        <p className="md:text-2xl text-xl font-bold text-gray-500">Contributing value to the global basketball market.</p>
        <Link to=""> 
