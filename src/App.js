@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Podcast from "./components/Podcast";
 import Hero from "./components/Hero";
-import Teams from "./components/Teams"
+
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Inform from "./components/Inform";
@@ -23,6 +23,7 @@ import BlogHome  from "./components/Blog/BlogHome"
 import PostByCategory from "./components/Blog/PostByCategory";
 import Article from "./components/Blog/Article";
 import Newsletter from "./components/Newsletter";
+
 
 
 
@@ -92,6 +93,8 @@ function App() {
           <Route path="/podcast">
           <Podcast />
           </Route>
+          
+          
 
 
 

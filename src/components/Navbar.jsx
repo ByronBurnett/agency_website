@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import logo from "../assets/White logo - no background.png";
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0911389d95d6985c5bf91d8b12c236f1c62da90e
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
@@ -37,7 +40,11 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         <li className="p-4"
           
         >
+<<<<<<< HEAD
           Training
+=======
+          Consulting
+>>>>>>> 0911389d95d6985c5bf91d8b12c236f1c62da90e
         </li>
         </Link>
    
