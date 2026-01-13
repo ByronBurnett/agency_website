@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Jordan Rivers",
+    "league": "NBL Australia",
+    "ppg": 18.5,
+    "apg": 4.2,
+    "rpg": 5.1,
+    "index": 87.3
+  },
+  {
+    "name": "Luka Ivanov",
+    "league": "Adriatic League",
+    "ppg": 15.2,
+    "apg": 6.1,
+    "rpg": 3.8,
+    "index": 83.7
+  },
+  {
+    "name": "Kofi Mensah",
+    "league": "BAL Africa",
+    "ppg": 20.1,
+    "apg": 2.9,
+    "rpg": 7.4,
+    "index": 89.5
+  }
+]
