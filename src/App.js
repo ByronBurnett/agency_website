@@ -42,7 +42,6 @@ function App() {
             <Newsletter /> 
             <BlogHome ref={blogRef} />
             <Podcast/>
-           <Cards/> 
            
           
           </Route>
