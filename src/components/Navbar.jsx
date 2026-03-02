@@ -36,7 +36,7 @@ const Navbar = ({ prop, contact, about, blog, podcast }) => {
         <li className="p-4"
           
         >
-          Training
+          Clients
         </li>
         </Link>
    

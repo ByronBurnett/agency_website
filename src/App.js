@@ -42,6 +42,7 @@ function App() {
             <Hero />
             <Newsletter /> 
             <BlogHome ref={blogRef} />
+            <Cards/> 
             <Podcast/>
            
           
