@@ -1,6 +1,6 @@
 import React from "react";
 import { forwardRef } from "react";
-import player from "../assets/players.jpg";
+import NCAA from "../assets/NCAA.jpg";
 
 import { Link } from "react-router-dom/";
 
@@ -9,7 +9,7 @@ const Cards = forwardRef((props, ref) => {
     <div ref={ref} className="w-full py-[10rem] px-4 bg-white ">
       <div className="max-w-[620px] mx-auto">
         <div className=" bg-white border border-gray-400 rounded-lg shadow-lg hover:scale-105 duration-300">
-          <img src={player} className="rounded-t-lg" alt="player_pic" />
+          <img src={NCAA} className="rounded-t-lg" alt="player_pic" />
 
           <div className="p-5">
             <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">

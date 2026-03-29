@@ -15,7 +15,7 @@ const Hero = () => {
        
 
        </div>
-       <p className="md:text-2xl text-xl font-bold text-gray-500">Creating value through player development</p>
+       <p className="md:text-2xl text-xl font-bold text-gray-500">"All roads lead through player development."</p>
        <Link to=""> 
       <button className="bg-blue-600 w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white">Get Started</button>
       </Link>

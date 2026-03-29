@@ -20,8 +20,8 @@ const About = () => {
       <div className="flex flex-col justify-center bg-white px-4">
         <h2 className="text-blue-600 font-bold text-4xl ">Founder & CEO</h2> 
         <h3 className="text-black font-bold text-3xl pb-8">Byron Burnett</h3>  
-        <p className="text-base">Byron is an Certified FIBA Agent and a former professional basketball player who played in several premier leagues globally including: France Pro B, Mexico LNBP and Venezuela's LNB. Byron has a Liberal Arts degree from Florida International University where he attended from 2003-2005 and a International Business degree from Metropolia University of Applied Sciences in Helsinki, Finland.</p> <br/>
-        <p className='text-base'>With great passion for basketball, Byron has trained players, coached youth level basketball, worked as a basketball referee in Europe and written extensively about the game. With over two decades of experience, Byron has valuable insight and knowledge about what is required to be a sucessful player on and off the court as an aspiring and professional athlete. </p> <br/>
+        <p className="text-base">Byron Burnett is a former professional basketball player who played in several basketball leagues including: France Pro B, Mexico LNBP and Venezuela's LNB. Byron has a Liberal Arts degree from FIU(Florida International University) where he attended from 2003-2005. During his last few years as a player Byron moved to Helsinki, Finland where he finished his career and later earned an International Business degree from Metropolia University of Applied Sciences in Finland.</p> <br/>
+        <p className='text-base'>Byron has trained players, coached youth level basketball, worked as a basketball referee in Finland(EU), written extensively and used various social media platforms to market the game of basketball. With over 25 years of experience around the game of basketball, Byron has valuable insight and knowledge about what is required to be a sucessful player on and off the court. </p> <br/>
         
         
       </div>

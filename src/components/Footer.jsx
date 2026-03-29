@@ -9,7 +9,7 @@ import {
   } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
-import { FaLinkedinIn } from "react-icons/fa6";
+
 
 
 const Footer = ({prop, contact, about}) => {
@@ -27,7 +27,7 @@ const Footer = ({prop, contact, about}) => {
           />
         </h1>
         <p className="py-4">
-          Premier basketball agency and brand.
+          Where Player Development Lives.
         </p>
 
         <div className="flex justify-between md:w-[75%] my-6">
@@ -42,11 +42,11 @@ const Footer = ({prop, contact, about}) => {
         <div> 
         <h6 className="font-medium text-gray-400">Offerings</h6>
         <ul>
-        
+          <Link to="/playerdevelopment"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Player Development</li></Link>
+          <Link to="/camps"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Basketball Camps</li></Link>
            <Link to="/scouting"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Scouting & Analytical Services</li></Link> 
-           <Link to="/playerdevelopment"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Player Development</li></Link>
-            <Link to="/consultancy"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Consultancy</li></Link>
-            <Link to="/camps"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Basketball Camps</li></Link>
+           <Link to="/consultancy"><li onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})} className="py-2 text-sm">Consultancy</li></Link>
+           
         </ul>
         </div>
         
